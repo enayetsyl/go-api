@@ -125,3 +125,13 @@ pre {
 .active-tab {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
+
+
+.border-waitlist {
+  /* Define the gradient border */
+  border-width: 2px; /* Adjust the border width as needed */
+  border-style: solid;
+  border-image: linear-gradient(to right, #4facfe, #00f2fe, #7a5cff); /* Define the gradient colors */
+  border-image-slice: 1;
+  border-radius: 20px; /* Adjust the border radius as needed */
+}

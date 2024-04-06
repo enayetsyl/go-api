@@ -9,23 +9,6 @@ const PageHero = ({data}: {data: PageHeroType}) => {
   const { heading1, heading2, heading3, paragraph1, paragraph2, buttons, image} = data
 
 
-  // const buttonRoutes = [
-  //   {
-  //     title: "Try API for free!",
-  //     route: "/midjourney-api",
-  //     newTab: true,
-  //   },
-  //   {
-  //     title: "Documentation",
-  //     route: "/gpt-api",
-  //     newTab: true,
-  //   },
-  //   {
-  //     title: "Join Discord",
-  //     route: "/#",
-  //     newTab: true,
-  //   },
-  // ];
   return (
     <div className="pt-20">
       {/* Heading */}

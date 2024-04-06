@@ -43,7 +43,7 @@ const Header = () => {
               alt="logo"
               width={119.03}
               height={30}
-              className="hidden w-full dark:block"
+              className="hidden w-auto h-auto dark:block "
             />
             <Image
               src="/images/logo/logo-light.svg"

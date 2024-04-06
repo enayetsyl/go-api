@@ -7,10 +7,7 @@ import Link from "next/link"
 const StableSupportedModes = ({card}: {card: SupportedModesType}) => {
   const {image, heading, description, linkText, link, textAfterLink } = card
 
-  if (!link) {
-    console.error("Link is missing:", card);
-    return null; // Or handle the missing link in some other way
-  }
+
   return (
     <div>
       <div

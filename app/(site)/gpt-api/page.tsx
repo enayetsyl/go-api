@@ -1,10 +1,15 @@
 import React from 'react'
+import gptFaqData from './gptFAQData'
+import FAQ from '@/components/FAQ'
 
 type Props = {}
 
 const GPTAPI = (props: Props) => {
   return (
-    <div>GPTAPI</div>
+    <div>GPTAPI
+
+<FAQ data={gptFaqData}/>
+    </div>
   )
 }
 

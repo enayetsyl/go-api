@@ -1,6 +1,7 @@
 import PageHero from '@/components/Common/PageHero'
 import React from 'react'
-import midjourneyPageData from './pageData'
+import midjourneyPageData, { midjourneyFaqData } from './pageData'
+import FAQ from '@/components/FAQ'
 
 type Props = {}
 
@@ -10,6 +11,9 @@ const MidjourneyAPI = (props: Props) => {
       {
         midjourneyPageData.map((data, index )=> <PageHero key={index} data={data}/>)
       }
+      <div>
+      <FAQ data={midjourneyFaqData}/>
+      </div>
     </div>
   )
 }
