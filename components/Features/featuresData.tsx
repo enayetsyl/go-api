@@ -1,5 +1,6 @@
 import { Feature } from "@/types/feature";
 
+
 const featuresData: Feature[] = [
   {
     id: 1,
@@ -11,6 +12,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
+    icon:'',
     title: "GPTs API",
     prompt: 'What is the temperature',
     response: 'Browsing web....',
@@ -18,7 +20,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-
+    icon:'',
     title: "GPT3.5/GPT4 API",
     prompt: '.',
     response: '.',
@@ -51,6 +53,7 @@ const featuresData: Feature[] = [
   {
     id: 7,
     title: "Transcription API",
+    icon:'',
     description: "Hello my name is.",
     buttonText: "Transcribe to text",
     transcript: true,
@@ -58,6 +61,7 @@ const featuresData: Feature[] = [
   {
     id: 7,
     title: "TTS API",
+    icon:'',
     description: "How are you",
     buttonText: "Generate audio",
     transcript: true,
