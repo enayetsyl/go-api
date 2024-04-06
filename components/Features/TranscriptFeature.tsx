@@ -36,7 +36,7 @@ const TranscriptFeature = ({ feature }: { feature: Feature }) => {
         </h3>
         <div className="flex items-center justify-center gap-5 md:mt-20">
           <div className="h-16 rounded-lg bg-zinc-500 flex justify-center items-center w-16">
-          <BsSoundwave />
+          <BsSoundwave  className="text-black text-3xl"/>
           </div>
           <FaArrowRight className="text-2xl" />
           <div className="h-16 rounded-lg bg-zinc-500 w-24">
