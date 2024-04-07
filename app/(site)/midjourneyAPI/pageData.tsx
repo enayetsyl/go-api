@@ -1,5 +1,30 @@
 import { FAQType } from "@/types/faq";
 import { PageHeroType } from "@/types/pageHero";
+import { BsCoin, BsCreditCard2FrontFill } from 'react-icons/bs'
+import { FaServer } from 'react-icons/fa6'
+import { PiCardsDuotone } from 'react-icons/pi'
+import {  ReactNode } from 'react';
+
+
+
+export interface OptionDataItem {
+  title1: string;
+  title2: string;
+  title3: string;
+  icon1:  ReactNode;
+  icon2: ReactNode;
+  icon3: ReactNode;
+  icon1Text: string;
+  icon2Text: string;
+  icon3Text: string;
+  list: string[];
+  text1: string;
+  text2: string;
+  text3: string;
+  text4: string;
+}
+
+
 
 const midjourneyPageData: PageHeroType[] = [
   {
@@ -87,3 +112,38 @@ export const midjourneyFaqData: FAQType[] = [
   },
    
 ];
+
+export const optionData: OptionDataItem[] = [
+  {
+    title1: 'Option 1: Use',
+    title2: 'your',
+    title3: "Midjourney accounts",
+    icon1: <BsCreditCard2FrontFill/>,
+    icon2: <PiCardsDuotone/>,
+    icon3: <FaServer/>,
+    icon1Text: "Sign up",
+    icon2Text: "Bind your account",
+    icon3Text: "Start using",
+    list: ["Already have your own Midjourney account(s)?", "Want faster generation time?", "Want the best account banning prevention features?"],
+    text1: "We can host your Midjourney accounts!",
+    text2: "This is also called the ",
+    text3: "BYOA (Bring-Your-Own Account) ",
+    text4: "option. We run the largest BYOA operation in the market, with users ranging from indie-developers to large enterprise clients hosting over 50 accounts!",
+  },
+  {
+    title1: 'Option 2: Use',
+    title2: 'our',
+    title3: "Midjourney accounts",
+    icon1: <BsCreditCard2FrontFill/>,
+    icon2: <BsCoin/>,
+    icon3: <FaServer/>,
+    icon1Text: "Sign up",
+    icon2Text: "Top-up Credits",
+    icon3Text: "Start using",
+    list: ["Don't want to buy Midjourney account?", "Don't want to manage your own Midjourney accounts pool?", "Want to get started with your development work asap?"],
+    text1: "Use our Midjourney accounts!",
+    text2: "This is also called the ",
+    text3: "PPU (pay-per-use)  ",
+    text4: " option. We are the largest and most stable PPU service provider, with extensive experience in serving enterprise clients and large events.",
+  },
+]

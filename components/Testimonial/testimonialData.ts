@@ -5,34 +5,46 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "- Nic",
+   heading: "An absolute pleasure",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "I implemented the BYOA Midjourney API yesterday. It has been an absolute pleasure building the integration.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
+    name: "- Chris",
+   heading: "You guys are awesome!",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "To all the admins and developers of this website - thank you! It’s just a matter of time till this website explodes in popularity.",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "- Davis",
+   heading: "It has been AMAZING",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Thank you for all the hands-on support you and your team has offered. We have had many successes, benefiting from your service.",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
+    name: "- James",
+   heading: "Works really well",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Your API is great! Are there any plans to add turbo mode soon? Users like me would really appreciate it.",
   },
+  {
+    id: 5,
+    name: "- Mal",
+   heading: "Awesome project!",
+    content:
+      "We depended on thenextleg previously and faced huge problems down the road. We now depend on you guys.",
+  },
+  {
+    id: 6,
+    name: "- Mike",
+   heading: "One of the best",
+    content:
+      "It’s one of the best Midjourney API out there. I’ve implemented the pan/zoom feature and it works well!",
+  },
+  
+  
 ];
