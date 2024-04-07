@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import './scrollbar.css';
 
 /* third-party libraries CSS */
 
@@ -136,3 +137,26 @@ pre {
   border-radius: 20px; /* Adjust the border radius as needed */
 }
 
+
+/* scrollbar */
+
+/* Apply the scrollbar styles to the desired elements */
+/* Example */
+/* .my-container {
+  /* For Chrome, Safari, Opera */
+  /* scrollbar-width: 2px;
+  scrollbar-color: #000 #1caf24; */
+
+  /* For Firefox */
+  /* scrollbar-color: #000 #1caf24; */
+
+
+/* Example of applying scrollbar styles to a specific element */
+/* .my-container::-webkit-scrollbar { */
+  /* width: 2px; Width of the scrollbar */
+
+
+/* .my-container::-webkit-scrollbar-thumb { */
+  /* background: #000; Color of the scrollbar handle */
+  /* border-radius: 4px; Rounded corners */
+/* } */ 

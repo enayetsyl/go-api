@@ -1,0 +1,59 @@
+/* scrollbar.css */
+
+/* Customizing scrollbar track */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar {
+  height: 6px; /* Width of the scrollbar */
+}
+
+/* Firefox */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #494b4f #1caf24;
+}
+
+/* Handle */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar-thumb {
+  background: #494b4f; /* Color of the scrollbar handle */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+  background: #494b4f; /* Color of the scrollbar handle */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Handle on hover */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar-thumb:hover {
+  background: #6B7280; /* Color of the scrollbar handle on hover */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+  background: #6B7280; /* Color of the scrollbar handle on hover */
+}
+
+/* Track */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar-track {
+  background: #36373a; /* Color of the scrollbar track */
+}
+
+/* Firefox */
+.scrollbar-track {
+  background: #36373a; /* Color of the scrollbar track */
+}
+
+/* Corner */
+/* Chrome, Safari, Opera */
+::-webkit-scrollbar-corner {
+  background: transparent; /* Background color of the scrollbar corner */
+}
+
+/* Firefox */
+.scrollbar-corner {
+  background: transparent; /* Background color of the scrollbar corner */
+}
