@@ -1,10 +1,13 @@
+import DashboardPageHeading from '@/components/DashboardPageHeading/DashboardPageHeading'
 import React from 'react'
 
 type Props = {}
 
 const Tasks = (props: Props) => {
   return (
-    <div>Tasks</div>
+    <div>
+      <DashboardPageHeading heading='API Tasks'/>
+    </div>
   )
 }
 

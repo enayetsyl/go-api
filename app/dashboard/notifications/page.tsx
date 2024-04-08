@@ -1,10 +1,13 @@
+import DashboardPageHeading from '@/components/DashboardPageHeading/DashboardPageHeading'
 import React from 'react'
 
 type Props = {}
 
 const AccountNotifications = (props: Props) => {
   return (
-    <div>AccountNotifications</div>
+    <div>
+      <DashboardPageHeading heading='Account Notifications'/>
+    </div>
   )
 }
 

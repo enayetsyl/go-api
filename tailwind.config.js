@@ -37,6 +37,8 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
+        baseCard: "#212225",
+        frontCard: "#36373a",
       },
       fontSize: {
         metatitle: ["12px", "20px"],
