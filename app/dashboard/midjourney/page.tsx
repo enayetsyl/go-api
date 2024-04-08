@@ -9,7 +9,7 @@ import { PiUploadThin } from 'react-icons/pi'
 type Props = {}
 
 const MidjourneyAPI = (props: Props) => {
-  const [isPPU, setIsPPU] = useState(false)
+  const [isPPU, setIsPPU] = useState(true)
   console.log(isPPU)
   return (
     <div className='px-10 pb-32'>

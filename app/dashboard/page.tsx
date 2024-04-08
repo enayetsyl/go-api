@@ -166,7 +166,7 @@ const Dashboard = (props: Props) => {
 
       <div className="back-card mt-8">
         <h1 className="border-l-4 border-blue-500  pl-5 text-2xl font-semibold">
-          Tools
+        Upgrade Subscription Plan
         </h1>
 
         <div className="mt-5 grid grid-cols-1 gap-10 lg:grid-cols-2">
