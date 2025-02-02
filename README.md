@@ -1,89 +1,137 @@
-# Solid - Free Next.js Web Template and Starter Kit for SaaS
+# Come API
 
-Solid is a free Next.js template specifically crafted for startups, SaaS, and software websites. It provides an extensive array of necessary sections, elements, and pages required to build a fully-equipped website for any SaaS, software, or startup site. Comes with all cutting edge React and Next.js features - **Built with Next.js 13, React 18 and TypeScript.**
+**Come API** is a modern, high-performance web application built using **Next.js, TypeScript, and Tailwind CSS**. This project follows best practices for scalability, theme support, and enhanced UI/UX.
 
-This Next.js template's homepage comes with an awesome hero area, logos of associated brands, a features section, an about section, another features section with tabs, counters, and star ratings, integration options, clear call-to-actions, an FAQ section with accordions, a testimonials section, pricing tables, a contact page, a blog, and a distinctive footer.
+## 🚀 Features
 
-**Solid Next.js template packed with all necessary external pages** - such as login, registration, blog grids, and single blog pages, among others. This broad collection of pages provides all the necessary tools to create a feature-packed, comprehensive, and visually appealing website or landing page for software, a web application, or SaaS.
+- **Next.js 13 (App Router)**
+- **TypeScript for type safety**
+- **Dark Mode & Theming (via `next-themes`)**
+- **Custom UI Components**
+- **Reusable Layout & Toaster Context**
+- **Prettier & ESLint Configured**
+- **Responsive Design with Tailwind CSS**
+- **Framer Motion for Animations**
+- **SEO Optimized Metadata**
+- **Scroll to Top Feature**
+- **Organized Folder Structure**
 
-### [🔥 Get Solid Pro - Next.js SaaS Boilerplate and Starter Kit](https://nextjstemplates.com/templates/solid)
+## 📦 Tech Stack
 
-![Startup Pro](https://uideck.com/wp-content/uploads/edd/2023/07/solid-saas.png)
+| Tech          | Purpose                            |
+|--------------|------------------------------------|
+| **Next.js**  | React Framework for SSR & SSG     |
+| **TypeScript** | Type-safe development           |
+| **Tailwind CSS** | Utility-first styling         |
+| **Framer Motion** | Smooth animations & transitions |
+| **React Icons** | Iconography support           |
+| **Next-Themes** | Dark mode & theme management   |
+| **React-Hot-Toast** | Toast notifications        |
 
-### [🚀 Solid PRO Live Demo](https://solid.nextjstemplates.com/)
+---
 
-### [🚀 Solid FREE Live Demo](https://solid-free.nextjstemplates.com/)
+## 🛠️ Installation & Setup
 
-### TailAdmin React PRO vs TailAdmin React FREE Comparison 📊
-
-#### [Solid PRO](https://solid.nextjstemplates.com/)
-- SaaS Boilerplate + Starter Kit with Essential Integrations and Functionalities
-- Essential Integrations: Auth, DB, Stripe, MDX and More ...
-- Fully Functional, Ready to Use Sanity Blog Support
-- Premium Email Support
-- Functional External Pages
-- Free Lifetime Future Updates
-___
-#### [Solid FREE](https://solid-free.nextjstemplates.com/)
-- Only UI - Coded for Next.js
-- No Integrations
-- No Functional Blogging System
-- External Pages without Functions/Integrations
-- Community Support
-- Free Lifetime Future Updates
-___
-
-### [📦 Download](https://nextjstemplates.com/templates/solid)
-
-### [🔥 Get Pro](https://nextjstemplates.com/templates/solid)
-
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fsolid-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
-
-
-## Installation
-
-Here are the steps you need to follow to install the dependencies.
-
-1.Download and extract the template from **Next.js Templates.**
-
-2.**cd** into the template directory then run this command to install all the dependencies
-    
-```bash
-    npm install
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/enayetsyl/go-api.git
+cd come-api
 ```
-    
-or
-    
-```bash
-    yarn install
- ```
 
+### 2️⃣ Install Dependencies
+```sh
+npm install
+# or
+yarn install
+```
 
-You can start the project on the local server
-    
-```bash
-    npm run dev
- ```
+### 3️⃣ Run Development Server
+```sh
+npm run dev
+# or
+yarn dev
+```
+Now, open **`http://localhost:3000`** in your browser.
 
-It’ll start the template on [localhost:3000](http://localhost:3000). 
+---
 
-The documentation includes all the guides you need for the integrations. 
+## 📂 Project Structure
 
+```
+📁 come-api
+├── 📁 components      # UI Components
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Contact.tsx
+│   ├── Feature.tsx
+│   ├── ...
+├── 📁 context         # Toast Context Provider
+├── 📁 pages           # Next.js Pages
+├── 📁 styles          # Global CSS & Tailwind
+├── 📁 public          # Static assets (favicon, images)
+├── 📁 utils           # Utility functions
+│   ├── cn.ts          # Tailwind ClassName Merge
+├── next.config.js     # Next.js Config
+├── tailwind.config.js # Tailwind Config
+├── tsconfig.json      # TypeScript Config
+├── package.json       # Project Dependencies
+└── README.md          # Documentation
+```
 
-### Deploying on PaaS
+---
 
-If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
+## 🎯 How It Works
 
-### 📄 License
-Solid Free is 100% free and open-source, feel free to use with your personal and commercial projects.
+### ✅ **Main Components**
+- **`RootLayout.tsx`** - Provides global context, dark mode support, and layout structure.
+- **`Hero.tsx`** - Displays the homepage hero section.
+- **`Feature.tsx`** - Highlights core features.
+- **`Contact.tsx`** - Contact form integration.
+- **`Footer.tsx` & `Header.tsx`** - Navigation and footer components.
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+### ✅ **Context & State Management**
+- `ToastContext.tsx` is used to handle global toast notifications.
 
-### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
+### ✅ **Dark Mode**
+- Uses `next-themes` to switch between **Light & Dark mode**.
+
+---
+
+## 🔥 Optimizations
+- **Prettier & ESLint**: Code formatting and linting.
+- **Lazy Loading**: Performance-optimized image & script loading.
+- **SEO & Metadata**: Configured in `Head.tsx` & `metadata.ts`.
+
+---
+
+## 📜 License
+
+This project is **open-source** and available under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+
+1. **Fork** the repository.
+2. Create a **new branch** (`feature/your-feature`).
+3. **Commit your changes** (`git commit -m 'Add new feature'`).
+4. **Push** to your branch (`git push origin feature/your-feature`).
+5. Open a **Pull Request**.
+
+---
+
+## 🏆 **Author:** Md Enayetur Rahman
+
+### Contact Information
+- [LinkedIn](https://www.linkedin.com/in/md-enayetur-rahman/)
+- [Facebook](https://www.facebook.com/profile.php?id=100094416483981)
+- [X (Twitter)](https://x.com/enayetu_syl)
+- [YouTube](https://www.youtube.com/@MdEnayeturRahman)
+- [GitHub](https://github.com/enayetsyl/)
+- [Medium](https://medium.com/@enayetflweb)
+- [dev.to](https://dev.to/md_enayeturrahman_2560e3)
+- [Leetcode](https://leetcode.com/u/XTl7hvNPIc/)
+- [Hackerrank](https://www.hackerrank.com/profile/enayetflweb)
+- [Codeforces](https://codeforces.com/profile/enayetsyl)
+- [Email](mailto:enayetflweb@gmail.com)
